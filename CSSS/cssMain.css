@@ -1,0 +1,174 @@
+﻿*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-image: url('../Images/yaldat center.png');
+    /*background-image: url('../Images/Main_Background 2 (1).png');*/
+    /*background-image: url('../Images/Main_Background.jpg');*/
+    background-size: cover; /*contain-optional*/
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    margin: auto;
+    width: 1920px;
+    min-width: 1920px;
+    min-height: 1080px;
+    /*height: 1080px;*/
+}
+.header{
+    width: 100%;
+    height: 88px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.MenuItems {
+    font-family: 'Comic Sans MS';
+    color: black;
+    margin-top: 15px;
+    font-size: 26px;
+    margin-right: 161px;
+    /*justify-content: space-between;*/
+    display: flex;
+}
+.logo{
+    text-decoration: none;
+    margin-right: 190px;
+    display: flex;
+}
+.logoText {
+    text-decoration: none;
+    margin-left: 26px;
+    margin-top: -9px;
+    /*margin-top: 18px;*/
+    font-family: Jokerman;
+    font-size: 50px;
+    /*font-size: 33px;*/
+    color: red;
+}
+.logoImage{
+    margin-top: 20px;
+}
+.logoLink{
+    text-decoration: none;
+    display: flex;
+}
+.main {
+    display: flex;
+    /*height: 910px;*/
+    /*background-image: url('../Images/Main_Background.jpg');*/
+}
+.Main_Right{
+}
+.Right_Up{
+    display:flex;
+}
+.Right_Down{
+    display: flex;
+}
+.PSI_AVATAR {
+    margin: 113px 182px 0px 92px;
+    padding-top: 116px;
+    padding-left:83px;
+    padding-right:86px;
+    padding-bottom: 101px;
+    background-image: url('../Images/BROWN.png');
+    border-radius: 50px;
+}
+.PSI_AVATAR:hover{
+    box-shadow: 0 0 5px 5px #84460e,
+                0 0 10px 10px #5585d5,
+                0 0 15px 15px #f08423,
+                0 0 20px 20px #d7cdc3;
+}
+.Magic_Wizard {
+    margin: 17px 48px 41px 0px;
+    padding-top: 17px;
+    padding-bottom:10px;
+    padding-left: 78px;
+    padding-right: 109px;
+    background-image: url('../Images/Purple_Magic.png');
+    border-radius: 50px;
+}
+.Magic_Wizard:hover{
+    box-shadow: 0 0 10px 10px #4c2ca5,
+                0 0 20px 20px #7350d4;
+}
+.WImage{
+    /*border: 2px solid purple;*/
+    /*width: 256px;
+    height: 385px;*/
+}
+.Military_Sniper {
+    margin: 17px 25px 40px 0px;
+    padding-top: 29px;
+    padding-bottom: 28px;
+    padding-left: 86px;
+    padding-right: 100px;
+    background-image: url('../Images/Green_Millitary.png');
+    border-radius: 50px;
+}
+.Military_Sniper:hover{
+    box-shadow: 0 0 10px 10px #287607, 
+                0 0 20px 20px #46ab1b;
+}
+.Primary_Dart {
+    margin: 0px 48px 16px -5px;
+    padding-left: 107px;
+    padding-right: 43px;
+    padding-top: 11px;
+    padding-bottom: 29px;
+    background-image: url('../Images/Blue_Primary.png');
+    border-radius: 50px;
+}
+.Primary_Dart:hover{
+    box-shadow: 0 0 10px 10px #196998,
+                0 0 20px 20px #2081ba;
+}
+.Support_Village {
+    margin: 0px 5px 16px -5px;
+    padding-top: 18px;
+    padding-left: 80px;
+    padding-right: 54px;
+    background-image: url('../Images/Yellow_support.png');
+    border-radius: 50px;
+}
+.Support_Village:hover{
+    box-shadow: 0 0 10px 10px #965f2d,
+                0 0 20px 20px #b5753a;
+}
+.footer{
+    margin-top: -5px;
+    height: 81px;
+    width: 100%;
+    background-color: white;
+}
+.MediaLinks{
+    display: flex;
+    list-style: none;
+    margin-left: 40px;    
+}
+.Media{
+    margin: 25px 12px 0px 0px;
+}
+.MenuItemsText {
+    /*border: 3px outset black;*/
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+.MenuItemsText:hover {
+    /*border: 4px inset blue;*/
+    font-size: 28px;
+    margin-right: -6px;
+    margin-left: -6px;
+    text-decoration: none;
+    color: blue;
+    text-shadow: 0 0 5px #1a56b8, 0 0 10px #1960d1, 0 0 15px #4184f0;
+}
+.Paragon{
+    margin: 9px 26px 0px 0px;
+}

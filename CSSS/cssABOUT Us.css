@@ -1,0 +1,64 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+.Main_Knowladge { 
+    display: flex;
+}
+.Text_About_Us {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #f7f9fc, 0 0 15px #e1e3e6;
+    margin: 1% 0px 5% 4%;
+    width: 950px;
+    height: 100%;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+}
+.GOD {
+    display: flex;
+}
+.God_Image{
+    margin: 100px 0px 0px 300px;
+}
+.God_Text {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #f7f9fc, 0 0 15px #e1e3e6;
+    margin: 0px 0px 5% 4%;
+    width: 950px;
+    height: 100%;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+}
+.BTD_Image{
+    margin: 120px 0px 0px 300px;
+}
+.vengful_image{
+    border-radius: 40px;
+}
+.Image{
+}
+.BTD_Image_border {
+    border-radius: 40px;
+    border: 5px solid black;
+}
+.Image:hover{
+    box-shadow: 0 0 20px 20px Black;
+}
+@font-face {
+    font-family: 'Montserratd';
+    src: url('../Fonts/Montserrat,Permanent_Marker,Ramabhadra,Rubik_Doodle_Shadow/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlfaSlabOne-Regular';
+    src: url('file:///C:\Users\ayele\OneDrive\Documents\Btd 6 Web\Fonts\Alfa_Slab_One,Montserrat,Permanent_Marker,Ramabhadra,Rubik_Doodle_Shadow\Alfa_Slab_One\AlfaSlabOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PermanentMarker-Regular';
+    src: url('file:///C:\Users\ayele\OneDrive\Documents\Btd 6 Web\Fonts\Alfa_Slab_One,Montserrat,Permanent_Marker,Ramabhadra,Rubik_Doodle_Shadow\Permanent_Marker\PermanentMarker-Regular.ttf') format('truetype');
+}
